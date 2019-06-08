@@ -1,0 +1,122 @@
+.Persik {
+  display: block;
+  width: 30%;
+  max-width: 240px;
+  margin: 20px auto;
+}
+
+.DisplayFlex > .Panel__in {
+    display: flex;
+    flex-direction: column;
+}
+
+.MapPanel > .Panel__in {
+  /*min-height: 100vh;*/
+  /*padding-bottom: 48px*/
+  height: inherit;
+}
+
+.MovieDescription .Header__content {
+  padding-bottom: 0 !important;
+}
+
+
+.CellMovie .Cell__main {
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+.CellMovie .Cell__in {
+    /*padding: 0;*/
+}
+
+.Header__content_padding .Header__content {
+    padding: 0 !important;
+}
+
+
+.Ads .Avatar__img {
+    height: 180px !important;
+    border-radius: 15px !important;;
+    width: auto !important;
+}
+
+
+
+
+
+
+
+
+.GalleryItem__wrap {
+    position:            relative;
+    height:              190px;
+    background-position: center 50%;
+    background-color:    #cacaca;
+}
+
+
+.GalleryItem__header {
+    position:         absolute;
+    top:              0;
+    left:             0;
+    padding:          4px 14px;
+
+    border-radius:    0 0 6px 0;
+    color:            #fff;
+    background-color: rgba(62, 139, 218, 0.6);
+    max-width: 64%;
+}
+
+.GalleryItem__title_wrap {
+    position:         absolute;
+    bottom:           0;
+    left:             0;
+    right:            0;
+    height:           50px;
+    padding:          4px 14px;
+    color:            #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.GalleryItem__description {
+    /*width:         64%;*/
+    /*text-align:    center;*/
+    /*padding:       15px 10px;*/
+    overflow:      hidden;
+    white-space:   nowrap;
+    text-overflow: ellipsis;
+    font-size: 13px;
+}
+
+.GalleryItem__title {
+    /*width:         64%;*/
+    text-align:    center;
+    padding:       15px 10px;
+    overflow:      hidden;
+    white-space:   nowrap;
+    text-overflow: ellipsis;
+    font-size: 15px;
+}
+
+.GalleryItem__info {
+    position:         absolute;
+    bottom:           16px;
+    right:            14px;
+    padding:          6px 12px;
+    font-size:        13px;
+    font-weight:      bold;
+    border-radius:    4px;
+    color:            #fff;
+    background-color: #5181b8;
+}
+
+
+
+.Gallery__Cell .Cell__main {
+    padding: 0;
+}
+.Gallery__Cell .Cell__in {
+    padding: 0;
+}
